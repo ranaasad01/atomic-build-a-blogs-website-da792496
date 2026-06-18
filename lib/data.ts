@@ -10,6 +10,7 @@ export interface NavLink {
 
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
+  { label: "Blog", href: "/blog" },
   { label: "Featured", href: "#featured" },
   { label: "Categories", href: "#categories" },
   { label: "About", href: "#about" },
@@ -18,7 +19,7 @@ export const navLinks: NavLink[] = [
 
 export const navCTA = {
   label: "Start Reading",
-  href: "#featured",
+  href: "/blog",
 };
 
 export interface Author {
